@@ -1,0 +1,11 @@
+cs_rats2 - hostage rescue
+based on Chris Spain's map (chris@cyber-rat.com)
+This text file by [SKR8]Gunslinger
+
+Counter-Terrorists:
+Try to rescue the hostages and try not to drown in the toilet.
+
+Terrorists:
+Oh well...kill those guys in the dark uniforms.
+
+(Press FIRE to continue)

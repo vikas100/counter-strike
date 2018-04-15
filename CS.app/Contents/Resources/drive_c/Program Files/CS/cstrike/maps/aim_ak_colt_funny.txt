@@ -1,0 +1,16 @@
+Aim_ak_colt_funny - Bomb/Defuse
+
+***By SmiLeYmaps ***
+Jens sOrensen (http://smileymaps.tk)
+textures by (orginal) 
+
+Counter-Terrorists: Prevent Terrorists
+from bombing the Tower!.
+Team members must defuse any bombs 
+
+
+Terrorists: The Terrorist carrying the
+C4 must destroy one of the Tower or under the 
+CT spawn
+
+Other Notes: There are 2 Bombsites in this map

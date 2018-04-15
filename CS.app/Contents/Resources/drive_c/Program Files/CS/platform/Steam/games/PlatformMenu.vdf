@@ -1,0 +1,54 @@
+// this file defines the contents of the platform menu
+"Platform"
+{
+	"Menu"
+	{
+		"Games"
+		{
+			"dll"		"steamUI.dll"
+			"interface"	"SteamUIGames001"
+			"MenuName"	"#App_Games"
+			"SteamApp"  "1"
+		}
+		"Storefront"
+		{
+			"dll"		"steamUI.dll"
+			"interface"	"SteamUIStorefront001"
+			"MenuName"	"#App_Storefront"
+			"SteamApp"  "1"
+		}
+		"Friends"
+		{
+			"dll"		"Friends/trackerUI.dll"
+			"interface"	"VGuiModuleTracker001"
+			"MenuName"	"#App_Friends"
+		}
+		"Servers"
+		{
+			"dll"		"Servers/serverbrowser.dll"
+			"interface"	"VGuiModuleServerBrowser001"
+			"MenuName"	"#App_Servers"
+		}
+		"Monitor"
+		{
+			"dll"		"steamUI.dll"
+			"interface" "SteamMonitor001"
+			"MenuName"  "#App_Monitor"
+			"SteamApp"  "1"
+		}
+		"Settings"
+		{
+			"dll"		"steamUI.dll"
+			"interface" "VGuiModuleSettings001"
+			"MenuName"  "#App_Settings"
+			"SteamApp"  "1"
+		}
+		"News"
+		{
+			"dll"		"steamUI.dll"
+			"MenuName"  "#App_News"
+			"interface" "VGuiModuleNews001"
+			"SteamApp"  "1"
+		}
+	}
+}

@@ -1,0 +1,1430 @@
+//----------------------------------------------------------------------------
+// BotChatter.db
+// Author: Michael S. Booth, Turtle Rock Studios (www.turtlerockstudios.com)
+//
+// This database defines "Places" (phrases that describe a location in the world)
+// and "Chatter" (phrases used for everything else) the bots use to talk via their radio.
+// 
+// Phrases (ie: either Place or Chatter) can contain any number of wav filenames that
+// contain voice recordings saying something appropriate for that phrase's concept.
+// For instance, the Chatter entry for "Affirmative" contains several wav files saying
+// things that mean "yes", such as "affirmative", "yes sir", "roger that", and so on.
+//
+// Some phrases have a "Radio" line. This maps that phrase to a Standard Radio event and
+// is used when the player has restricted the bots to only using Standard Radio messages.
+// In that case, that radio message will be played instead of the normal phrase.
+//
+// The keyword "Important" flags that phrase as being "mission critical", and means it
+// will be spoken if the player has set the bots to "minimal" chatter.
+//
+// "Count" and "Place" qualifiers mean that any subsequent wav files will only be selected
+// if the bot is referring to the given Count or Place.
+//
+//
+// VOICE ACTOR NOTES:
+// Unless otherwise stated, these phrases should be spoken in a terse, matter-of-fact manner.
+// The bots will utter "batches" of phrases to communicate the situation. For example, if a bot
+// discovers many enemies near the bridge, and one of them is carrying the bomb, he will say
+// something like:
+//   "Bridge" ... "There's the bomber" ... "Need help!"  
+//
+//
+// ***NOTE: Total filename length must be less than 64!
+//
+
+
+//
+// Places must be first in this database
+//
+
+Place BombsiteA
+	radio\bot\cooked\a.wav
+End
+
+Place BombsiteB
+	radio\bot\cooked\b.wav
+End
+
+Place BombsiteC
+	radio\bot\cooked\c.wav
+End
+
+Place Hostages
+	radio\bot\cooked\hostages.wav
+End
+
+Place HostageRescueZone
+	radio\bot\cooked\rescue_zone.wav
+	radio\bot\cooked\rescue_zone2.wav
+End
+
+Place VipRescueZone
+	radio\bot\cooked\rescue_zone.wav
+	radio\bot\cooked\rescue_zone2.wav
+End
+
+Place CTSpawn
+	radio\bot\cooked\ct_spawn.wav
+End
+
+Place TSpawn
+	radio\bot\cooked\t_spawn.wav
+End
+
+
+Place Bridge
+	radio\bot\cooked\bridge.wav
+End
+
+Place Middle
+	radio\bot\cooked\middle.wav
+End
+
+Place House
+	radio\bot\cooked\house.wav
+End
+
+Place Apartment
+	radio\bot\cooked\apartment.wav
+End
+
+Place Apartments
+	radio\bot\cooked\apartments.wav
+End
+
+Place Market
+	radio\bot\cooked\market.wav
+	radio\bot\cooked\market2.wav
+End
+
+Place Sewers
+	radio\bot\cooked\sewers.wav
+	radio\bot\cooked\sewers2.wav
+End
+
+Place Tunnel
+	radio\bot\cooked\tunnel.wav
+	radio\bot\cooked\tunnel2.wav
+End
+
+Place Ducts
+	radio\bot\cooked\vents.wav
+	radio\bot\cooked\vents2.wav
+	radio\bot\cooked\ventilation_system.wav
+End
+
+Place Village
+	radio\bot\cooked\villiage.wav
+End
+
+Place Roof
+	radio\bot\cooked\roof.wav
+End
+
+Place Upstairs
+	radio\bot\cooked\upstairs.wav
+End
+
+Place Downstairs
+	radio\bot\cooked\downstairs.wav
+End
+
+Place Basement
+	radio\bot\cooked\basement.wav
+End
+
+Place Crawlspace
+	radio\bot\cooked\crawlspace.wav
+End
+
+Place Kitchen
+	radio\bot\cooked\kitchen.wav
+	radio\bot\cooked\kitchen2.wav
+End
+
+Place Inside
+	radio\bot\cooked\inside.wav
+End
+
+Place Outside
+	radio\bot\cooked\outside.wav
+End
+
+Place Tower
+	radio\bot\cooked\tower.wav
+End
+
+Place WineCellar
+	radio\bot\cooked\wine_cellar.wav
+End
+
+Place Garage
+	radio\bot\cooked\garage.wav
+End
+
+Place Courtyard
+	radio\bot\cooked\courtyard.wav
+End
+
+Place Water
+	radio\bot\cooked\water.wav
+End
+
+Place FrontDoor
+	radio\bot\cooked\front_door.wav
+	radio\bot\cooked\front_door2.wav
+End
+
+Place BackDoor
+	radio\bot\cooked\back_door.wav
+End
+
+Place SideDoor
+	radio\bot\cooked\side_door.wav
+End
+
+Place BackWay
+	radio\bot\cooked\back_way.wav
+End
+
+Place FrontYard
+	radio\bot\cooked\front_yard.wav
+End
+
+Place BackYard
+	radio\bot\cooked\back_yard.wav
+End
+
+Place SideYard
+	radio\bot\cooked\side_yard.wav
+End
+
+Place Lobby
+	radio\bot\cooked\lobby.wav
+End
+
+Place Vault
+	radio\bot\cooked\vault.wav
+End
+
+Place Elevator
+	radio\bot\cooked\elevator.wav
+	radio\bot\cooked\elevator2.wav
+End
+
+Place DoubleDoors
+	radio\bot\cooked\double_doors.wav
+End
+
+Place SecurityDoors
+	radio\bot\cooked\security_doors.wav
+End
+
+Place LongHall
+	radio\bot\cooked\long_hall.wav
+End
+
+Place SideHall
+	radio\bot\cooked\side_hall.wav
+End
+
+Place FrontHall
+	radio\bot\cooked\front_hall.wav
+End
+
+Place BackHall
+	radio\bot\cooked\back_hall.wav
+End
+
+Place MainHall
+	radio\bot\cooked\main_hall.wav
+End
+
+Place FarSide
+	radio\bot\cooked\far_side.wav
+End
+
+Place Windows
+	radio\bot\cooked\windows.wav
+End
+
+Place Window
+	radio\bot\cooked\window.wav
+End
+
+Place Attic
+	radio\bot\cooked\attic.wav
+End
+
+Place StorageRoom
+	radio\bot\cooked\storage_room.wav
+End
+
+Place ProjectorRoom
+	radio\bot\cooked\projector_room.wav
+End
+
+Place MeetingRoom
+	radio\bot\cooked\meeting_room.wav
+End
+
+Place ConferenceRoom
+	radio\bot\cooked\conference_room.wav
+End
+
+Place ComputerRoom
+	radio\bot\cooked\computer_room.wav
+End
+
+Place BigOffice
+	radio\bot\cooked\big_office.wav
+End
+
+Place LittleOffice
+	radio\bot\cooked\little_office.wav
+End
+
+Place Dumpster
+	radio\bot\cooked\dumpster.wav
+End
+
+Place Airplane
+	radio\bot\cooked\airplane.wav
+End
+
+Place Underground
+	radio\bot\cooked\underground.wav
+End
+
+Place Bunker
+	radio\bot\cooked\bunker.wav
+End
+
+Place Mines
+	radio\bot\cooked\mines.wav
+	radio\bot\cooked\old_mines.wav
+End
+
+Place Front
+	radio\bot\cooked\front.wav
+End
+
+Place Back
+	radio\bot\cooked\back.wav
+End
+
+Place Rear
+	radio\bot\cooked\rear.wav
+End
+
+Place Side
+	radio\bot\cooked\side.wav
+End
+
+Place Ramp
+	radio\bot\cooked\ramp.wav
+	radio\bot\cooked\ramp2.wav
+End
+
+Place Underpass
+	radio\bot\cooked\underpass.wav
+End
+
+Place Overpass
+	radio\bot\cooked\overpass.wav
+End
+
+Place Stairs
+	radio\bot\cooked\stairs.wav
+End
+
+Place Ladder
+	radio\bot\cooked\ladder.wav
+End
+
+Place Gate
+	radio\bot\cooked\gate.wav
+End
+
+Place GateHouse
+	radio\bot\cooked\gatehouse.wav
+End
+
+Place LoadingDock
+	radio\bot\cooked\loading_dock.wav
+End
+
+Place GuardHouse
+	radio\bot\cooked\guardhouse.wav
+End
+
+Place Entrance
+	radio\bot\cooked\entrance.wav
+End
+
+Place VendingMachines
+	radio\bot\cooked\vending_machines.wav
+	radio\bot\cooked\vending_machines2.wav
+End
+
+Place Loft
+	radio\bot\cooked\loft.wav
+End
+
+Place Balcony
+	radio\bot\cooked\balcony.wav
+End
+
+Place Alley
+	radio\bot\cooked\alley.wav
+End
+
+Place BackAlley
+	radio\bot\cooked\back_alley.wav
+End
+
+Place SideAlley
+	radio\bot\cooked\side_alley.wav
+End
+
+Place FrontRoom
+	radio\bot\cooked\front_room.wav
+End
+
+Place BackRoom
+	radio\bot\cooked\back_room.wav
+End
+
+Place SideRoom
+	radio\bot\cooked\side_room.wav
+End
+
+Place Crates
+	radio\bot\cooked\crates.wav
+End
+
+Place Truck
+	radio\bot\cooked\truck.wav
+End
+
+Place Bedroom
+	radio\bot\cooked\bedroom.wav
+	radio\bot\cooked\bedroom2.wav
+End
+
+Place FamilyRoom
+	radio\bot\cooked\family_room.wav
+End
+
+Place Bathroom
+	radio\bot\cooked\bathroom.wav
+	radio\bot\cooked\bathroom2.wav
+End
+
+Place LivingRoom
+	radio\bot\cooked\living_room.wav
+End
+
+Place Den
+	radio\bot\cooked\den.wav
+End
+
+Place Office
+	radio\bot\cooked\office.wav
+End
+
+Place Atrium
+	radio\bot\cooked\atrium.wav
+End
+
+Place Entryway
+	radio\bot\cooked\entryway.wav
+End
+
+Place Foyer
+	radio\bot\cooked\foyer.wav
+End
+
+Place Stairwell
+	radio\bot\cooked\stairwell.wav
+End
+
+Place Fence
+	radio\bot\cooked\fence.wav
+End
+
+Place Deck
+	radio\bot\cooked\deck.wav
+End
+
+Place Porch
+	radio\bot\cooked\porch.wav
+End
+
+Place Patio
+	radio\bot\cooked\patio.wav
+End
+
+Place Wall
+	radio\bot\cooked\wall.wav
+End
+
+
+
+//-----------------------------------------------------------------------------------------
+//
+// Chatter phrases follow
+//
+
+// one or more enemies have just been sighted for the first time
+Chatter EnemySpotted
+	Radio EVENT_RADIO_ENEMY_SPOTTED
+
+	Count 1
+		radio\bot\cooked\one_guy.wav
+
+	Count 2
+		radio\bot\cooked\two_of_them.wav
+
+	Count 3
+		radio\bot\cooked\three.wav
+		radio\bot\cooked\three_of_them.wav
+
+	Count Many
+		// VOICE NOTE: The bot is scared here - there are a lot of enemies!
+		radio\bot\cooked\a_bunch_of_them.wav
+		radio\bot\cooked\theyre_all_over_the_place2.wav
+		radio\bot\cooked\theyre_everywhere2.wav
+		radio\bot\cooked\theres_too_many_of_them.wav
+		radio\bot\cooked\theres_too_many.wav
+		radio\bot\cooked\too_many2.wav
+		radio\bot\cooked\the_actions_hot_here.wav 
+		radio\bot\cooked\its_a_party.wav 
+End
+
+// the bot has recently seen an enemy die
+Chatter EnemyDown
+	Radio EVENT_RADIO_ENEMY_DOWN
+
+	radio\bot\cooked\enemy_down.wav 
+	radio\bot\cooked\enemy_down2.wav 
+End
+
+// the bot says this when asked to "report in" while he is fighting enemies
+Chatter InCombat
+	Radio EVENT_RADIO_ENEMY_SPOTTED
+
+	radio\bot\cooked\attacking.wav 
+	radio\bot\cooked\attacking_enemies.wav 
+	radio\bot\cooked\engaging_enemies.wav 
+	radio\bot\cooked\in_combat.wav 
+	radio\bot\cooked\in_combat2.wav 
+	radio\bot\cooked\returning_fire.wav 
+End
+
+// the bot has been asked to "report in" and sees nothing interesting in his area
+Chatter Clear
+	Radio EVENT_RADIO_SECTOR_CLEAR
+
+	radio\bot\cooked\clear.wav 
+	radio\bot\cooked\clear2.wav 
+	radio\bot\cooked\clear3.wav 
+	radio\bot\cooked\clear4.wav 
+	radio\bot\cooked\area_clear.wav 
+	radio\bot\cooked\all_clear_here.wav 
+	radio\bot\cooked\nothing_moving_over_here.wav 
+	radio\bot\cooked\all_quiet.wav 
+	radio\bot\cooked\nothing_happening_over_here.wav 
+	radio\bot\cooked\i_got_nothing.wav 
+	radio\bot\cooked\nothing.wav 
+	radio\bot\cooked\nothing_here.wav 
+	radio\bot\cooked\theres_nobody_home.wav 
+End
+
+// the bot hasn't seen anything in a long time and is asking his teammates to report in
+Chatter RequestReport
+	Radio EVENT_RADIO_REPORT_IN_TEAM
+
+	radio\bot\cooked\report_in_team.wav 
+	radio\bot\cooked\anyone_see_them.wav 
+	radio\bot\cooked\anyone_see_anything.wav 
+	radio\bot\cooked\where_are_they.wav 
+	radio\bot\cooked\where_could_they_be.wav 
+End
+
+// the bot has killed the enemy has was fighting
+Chatter KilledMyEnemy
+	Radio EVENT_RADIO_ENEMY_DOWN
+
+	radio\bot\cooked\hes_dead.wav 
+	radio\bot\cooked\hes_down.wav 
+	radio\bot\cooked\got_him.wav 
+	radio\bot\cooked\dropped_him.wav 
+	radio\bot\cooked\killed_him.wav 
+	radio\bot\cooked\ruined_his_day.wav 
+	radio\bot\cooked\wasted_him.wav 
+	radio\bot\cooked\took_him_out.wav 
+	radio\bot\cooked\took_him_out2.wav 
+	radio\bot\cooked\took_him_down.wav 
+	radio\bot\cooked\made_him_cry.wav 
+	radio\bot\cooked\hes_broken.wav 
+	radio\bot\cooked\hes_done.wav 
+End
+
+// the bot was chasing after his enemy and lost track of him
+// VOICE NOTE: Minor frustration/disappointment/exasperation here
+Chatter LostEnemy
+	radio\bot\cooked\he_got_away.wav 
+	radio\bot\cooked\he_got_away2.wav 
+	radio\bot\cooked\i_dont_know_where_he_went.wav 
+	radio\bot\cooked\i_lost_him.wav 
+End
+
+// the bot is telling his team that the last enemy has been killed
+// VOICE NOTE: Happy/smugness/satisfaction
+Chatter NoEnemiesLeft
+	radio\bot\cooked\that_was_it.wav
+	radio\bot\cooked\that_was_the_last_one.wav
+	radio\bot\cooked\that_was_the_last_guy.wav
+End
+
+// the bot is telling his team there is one enemy left
+// VOICE NOTE: Anticipation
+Chatter OneEnemyLeft
+	radio\bot\cooked\one_guy_left.wav
+	radio\bot\cooked\theres_one_left.wav
+End
+
+// the bot is telling his team there are two enemies left
+Chatter TwoEnemiesLeft
+	radio\bot\cooked\two_enemies_left.wav 
+	radio\bot\cooked\two_to_go.wav 
+End
+
+// the bot is telling his team there are three enemies left
+Chatter ThreeEnemiesLeft
+	radio\bot\cooked\three_left.wav 
+	radio\bot\cooked\three_to_go.wav 
+	radio\bot\cooked\three_to_go2.wav 
+End
+
+// the bot is in trouble and is asking for help
+// VOICE NOTE: he's trying to keep it together, but he is mortally frightened
+Chatter Help
+	Radio EVENT_RADIO_TAKING_FIRE
+
+	radio\bot\cooked\taking_fire_need_assistance2.wav 
+	radio\bot\cooked\i_could_use_some_help.wav 
+	radio\bot\cooked\i_could_use_some_help_over_here.wav 
+	radio\bot\cooked\help.wav 
+	radio\bot\cooked\need_help.wav 
+	radio\bot\cooked\need_help2.wav 
+	radio\bot\cooked\im_in_trouble.wav 
+End
+
+// the bot is agreeing with the last radio command
+Chatter Affirmative
+	Radio EVENT_RADIO_AFFIRMATIVE
+
+	Important
+
+	radio\bot\cooked\affirmative.wav 
+	radio\bot\cooked\roger.wav 
+	radio\bot\cooked\roger_that.wav 
+End
+
+// the bot has declined the last radio command
+Chatter Negative
+	Radio EVENT_RADIO_NEGATIVE
+
+	Important
+
+	radio\bot\cooked\ahh_negative.wav 
+	radio\bot\cooked\negative.wav 
+	radio\bot\cooked\negative2.wav 
+	radio\bot\cooked\no.wav
+	radio\bot\cooked\nnno_sir.wav
+	radio\bot\cooked\no_sir.wav
+End
+
+//-----------------------------------------------------------------------------------------
+//
+// Bomb defuse scenario chatter
+//
+
+// the (CT) bot has checked a bombsite and not found the bomb - he tells his teammates that site is clear
+Chatter BombsiteClear
+	Radio EVENT_RADIO_SECTOR_CLEAR
+
+	Important
+
+	radio\bot\cooked\clear.wav 
+	radio\bot\cooked\clear2.wav 
+	radio\bot\cooked\clear3.wav 
+	radio\bot\cooked\area_clear.wav 
+	radio\bot\cooked\nothing.wav 
+	radio\bot\cooked\nothing_here.wav 
+End
+
+// the (CT) bot has begun defusing the bomb
+Chatter DefusingBomb
+	Radio EVENT_RADIO_COVER_ME
+
+	Important
+
+	radio\bot\cooked\defusing.wav 
+	radio\bot\cooked\defusing_bomb.wav 
+	radio\bot\cooked\defusing_bomb_now.wav
+End
+
+// the (CT) bot is announcing his intention to guard the dropped bomb
+Chatter GoingToGuardLooseBomb
+	radio\bot\cooked\im_going_to_guard_the_bomb.wav
+	radio\bot\cooked\im_going_to_guard_the_bomb2.wav
+	radio\bot\cooked\im_going_to_keep_an_eye_on_the_bomb.wav
+	radio\bot\cooked\im_going_to_watch_the_bomb.wav
+End
+
+// the (CT) bot it telling his team that he is guarding the dropped bomb
+Chatter GuardingLooseBomb
+	Radio EVENT_RADIO_IN_POSITION
+
+	Important
+
+	radio\bot\cooked\guarding_the_dropped_bomb.wav
+	radio\bot\cooked\ive_got_the_bomb.wav
+	radio\bot\cooked\ive_got_the_bomb_here.wav
+	radio\bot\cooked\the_bombs_here.wav
+	radio\bot\cooked\the_bombs_here_on_the_ground.wav
+End
+
+// the (Terrorist) bot is planting the bomb
+Chatter PlantingBomb
+	Radio EVENT_RADIO_COVER_ME
+
+	Important
+
+	// for maps with no places, and also to be occasionally vague about where we're planting
+	Place ANY
+		radio\bot\cooked\planting_the_bomb.wav
+		radio\bot\cooked\planting.wav
+
+	Place BombsiteA
+		radio\bot\cooked\planting_at_a.wav
+
+	Place BombsiteB
+		radio\bot\cooked\planting_at_b.wav
+
+	Place BombsiteC
+		radio\bot\cooked\planting_at_c.wav
+End
+
+// the (Terrorist) bot is announcing his intention to plant the bomb at a specific bomb site
+Chatter GoingToPlantBomb
+	Radio EVENT_RADIO_FOLLOW_ME
+
+	Important
+
+	// for maps with no places, and to be vague occasionally
+	Place ANY
+		radio\bot\cooked\im_gonna_go_plant.wav
+		radio\bot\cooked\im_gonna_go_plant_the_bomb.wav
+
+	Place BombsiteA
+		radio\bot\cooked\im_gonna_plant_the_bomb_at_a.wav
+		radio\bot\cooked\taking_the_bomb_to_a.wav
+
+	Place BombsiteB
+		radio\bot\cooked\going_to_plant_the_bomb_at_b.wav
+		radio\bot\cooked\im_gonna_plant_the_bomb_at_b.wav
+		radio\bot\cooked\taking_the_bomb_to_b.wav
+
+	Place BombsiteC
+		radio\bot\cooked\im_gonna_plant_the_bomb_at_c.wav
+		radio\bot\cooked\im_gonna_plant_the_bomb_at_c2.wav
+		radio\bot\cooked\taking_the_bomb_to_c.wav
+End
+
+// the (CT) bot has spotted the bomb carrier
+// VOICE NOTE: Intensity/determination/anger
+Chatter SpottedBomber
+	Radio EVENT_RADIO_ENEMY_SPOTTED
+
+	Important
+
+	radio\bot\cooked\i_see_the_bomber.wav
+	radio\bot\cooked\theres_the_bomber.wav
+	radio\bot\cooked\hes_got_the_bomb.wav
+	radio\bot\cooked\hes_got_the_bomb2.wav
+	radio\bot\cooked\hes_got_the_package.wav
+	radio\bot\cooked\spotted_the_delivery_boy.wav
+End
+
+// the bot has spotted a dropped bomb on the ground
+Chatter SpottedLooseBomb
+	Important
+
+	radio\bot\cooked\bombs_on_the_ground.wav
+	radio\bot\cooked\bombs_on_the_ground_here.wav
+	radio\bot\cooked\the_bomb_is_down.wav
+	radio\bot\cooked\the_bomb_is_on_the_ground.wav
+	radio\bot\cooked\they_dropped_the_bomb.wav
+End
+
+// the (CT) bot heard a Terrorist pick up the dropped bomb
+// VOICE NOTE: Anxiety/urgency
+Chatter TheyPickedUpTheBomb
+	Important
+
+	radio\bot\cooked\they_took_the_bomb.wav
+	radio\bot\cooked\they_took_the_bomb2.wav
+	radio\bot\cooked\they_got_the_bomb.wav
+	radio\bot\cooked\they_picked_up_the_bomb.wav
+End
+
+// the (CT) bot has found the location of the ticking bomb
+Chatter PlantedBombPlace
+	Radio EVENT_RADIO_NEED_BACKUP
+
+	Important
+
+	// for maps with no places
+	Place UNDEFINED
+		radio\bot\cooked\theres_the_bomb.wav
+		radio\bot\cooked\theres_the_bomb2.wav
+
+	Place BombsiteA
+		radio\bot\cooked\the_bombs_at_a.wav
+		//radio\bot\cooked\they_planted_at_a.wav		(can't use these, because T's respond with this as well)
+		radio\bot\cooked\the_bombs_ticking_at_a.wav
+
+	Place BombsiteB
+		radio\bot\cooked\the_bombs_at_b.wav
+		//radio\bot\cooked\they_planted_at_b.wav
+		radio\bot\cooked\the_bombs_ticking_at_b.wav
+
+	Place BombsiteC
+		radio\bot\cooked\the_bombs_at_c.wav
+		//radio\bot\cooked\they_planted_at_c.wav
+		radio\bot\cooked\the_bombs_ticking_at_c.wav
+End
+
+// the bot is asking his teammates where the bomb is
+Chatter WhereIsTheBomb
+	Important
+
+	radio\bot\cooked\wheres_the_bomb.wav
+	radio\bot\cooked\wheres_the_bomb2.wav
+	radio\bot\cooked\wheres_the_bomb3.wav
+	radio\bot\cooked\where_is_it.wav
+End
+
+// the (CT) bot is announcing his intention to guard a bombsite
+Chatter GoingToDefendBombsite
+	Important
+
+	// for maps with no places, or we're just being vague
+	Place ANY
+		radio\bot\cooked\im_going_to_camp.wav
+
+	Place BombsiteA
+		radio\bot\cooked\im_going_to_guard_bombsite_a.wav
+		radio\bot\cooked\im_going_to_camp_a.wav
+
+	Place BombsiteB
+		radio\bot\cooked\im_going_to_guard_bombsite_b.wav
+		radio\bot\cooked\im_going_to_camp_b.wav
+
+	Place BombsiteC
+		radio\bot\cooked\im_going_to_guard_bombsite_c.wav
+		radio\bot\cooked\im_going_to_camp_c.wav
+End
+
+// the (CT) bot is announcing that he is currently guarding a bombsite
+Chatter DefendingBombsite
+	Important
+
+	// for maps with no places
+	Place UNDEFINED
+		radio\bot\cooked\bombsite.wav
+		radio\bot\cooked\bombsite2.wav
+
+	Place BombsiteA
+		radio\bot\cooked\i_got_a_covered.wav
+		radio\bot\cooked\guarding_a.wav
+		radio\bot\cooked\im_camping_a.wav
+		radio\bot\cooked\heading_to_a.wav
+
+	Place BombsiteB
+		radio\bot\cooked\i_got_b_covered.wav
+		radio\bot\cooked\guarding_b.wav
+		radio\bot\cooked\im_camping_b.wav
+		radio\bot\cooked\heading_to_b.wav
+
+	Place BombsiteC
+		radio\bot\cooked\i_got_c_covered.wav
+		radio\bot\cooked\guarding_c.wav
+		radio\bot\cooked\im_camping_c.wav
+		radio\bot\cooked\heading_to_c.wav
+End
+
+// the (CT) bot is announcing that the bombsite is secure and ready for someone to defuse the bomb
+Chatter BombsiteSecure
+	Radio EVENT_RADIO_SECTOR_CLEAR
+
+	Important
+
+	radio\bot\cooked\bombsite_secure.wav
+	radio\bot\cooked\bombsite_secured.wav
+	radio\bot\cooked\bombsite_under_control.wav
+	radio\bot\cooked\weve_got_the_situation.wav
+End
+
+// the (CT) bot is encouraging the player to defuse the bomb
+Chatter WaitingForHumanToDefuseBomb
+	radio\bot\cooked\its_all_up_to_you_sir.wav
+	radio\bot\cooked\bombsite_secure_ready_for_you.wav
+	radio\bot\cooked\well_cover_you_while_you_defuse.wav
+	radio\bot\cooked\well_cover_you_you_defuse.wav
+End
+
+// the (CT) bot is anxiously encouraging the player to defuse the bomb
+// VOICE NOTE: Very nervous/anxious/worried
+Chatter WaitingForHumanToDefuseBombPanic
+	radio\bot\cooked\we_need_you_to_defuse_that_bomb_sir.wav
+	radio\bot\cooked\dont_worry_hell_get_it.wav
+	radio\bot\cooked\please_defuse_the_bomb_sir.wav
+	radio\bot\cooked\sir_defuse_the_bomb.wav
+	radio\bot\cooked\time_is_running_out.wav
+	radio\bot\cooked\time_is_running_out2.wav
+	radio\bot\cooked\uh_sir_the_bomb.wav
+End
+
+// when the bomb was defused with less than 2 seconds left
+// VOICE NOTE: Relief/happy
+Chatter BarelyDefused
+	radio\bot\cooked\i_wasnt_worried_for_a_minute.wav
+	radio\bot\cooked\that_was_a_close_one.wav
+	radio\bot\cooked\well_done.wav
+	radio\bot\cooked\whew_that_was_close.wav
+End
+
+
+//-----------------------------------------------------------------------------------------
+//
+// Hostage Rescue chatter
+//
+
+// the (Terrorist) bot is announcing his intention to guard the hostages
+Chatter GoingToGuardHostages
+	Important
+
+	radio\bot\cooked\camping_hostages.wav
+	radio\bot\cooked\im_going_to_camp_the_hostages.wav
+	radio\bot\cooked\im_going_to_guard_the_hostages.wav
+	radio\bot\cooked\im_going_to_guard_the_hostages2.wav
+End
+
+// the (Terrorist) bot is currently guarding some hostages
+Chatter GuardingHostages
+	Important
+
+	radio\bot\cooked\keeping_an_eye_on_the_hostages.wav
+	radio\bot\cooked\guarding_the_hostages.wav
+	radio\bot\cooked\guarding_hostages.wav
+	radio\bot\cooked\watching_the_hostages.wav
+	radio\bot\cooked\im_with_the_hostages.wav
+	radio\bot\cooked\im_with_the_hostages2.wav
+	radio\bot\cooked\im_at_the_hostages.wav
+End
+
+// the (Terrorist) bot is announcing his intetion to guard an escape zone
+Chatter GoingToGuardHostageEscapeZone
+	Important
+
+	radio\bot\cooked\im_going_to_cover_the_escape_zone.wav
+	radio\bot\cooked\im_going_to_watch_the_escape_zone.wav
+	radio\bot\cooked\im_going_to_keep_an_eye_on_the_escape.wav
+	radio\bot\cooked\heading_to_the_escape_zone.wav
+	radio\bot\cooked\heading_to_the_rescue_zone.wav
+	radio\bot\cooked\im_going_to_keep_an_eye_on_the_rescue.wav
+	radio\bot\cooked\im_going_to_watch_the_rescue_zone.wav
+End
+
+// the (Terrorist) bot is currently guarding an escape zone
+Chatter GuardingHostageEscapeZone
+	Important
+
+	radio\bot\cooked\watching_the_escape_route.wav
+	radio\bot\cooked\im_at_the_escape_zone.wav
+	radio\bot\cooked\watching_the_escape_zone.wav
+	radio\bot\cooked\guarding_the_escape_zone.wav
+	radio\bot\cooked\guarding_the_escape_zone2.wav
+End
+
+// the (Terrorist) bot is telling his friends that the CT's are taking the hostages right now
+// VOICE NOTE: Anxiety/frustration/anger
+Chatter HostagesBeingTaken
+	Radio EVENT_RADIO_NEED_BACKUP
+
+	Important
+
+	radio\bot\cooked\theyre_with_the_hostages.wav
+	radio\bot\cooked\theyre_taking_the_hostages.wav
+	radio\bot\cooked\theyre_rescuing_the_hostages.wav
+	radio\bot\cooked\hostages2.wav
+End
+
+// the (Terrorist) bot has just discovered that the hostages are gone
+// VOICE NOTE: Anxiety/frustration/anger
+Chatter HostagesTaken
+	Important
+
+	radio\bot\cooked\they_took_the_hostages.wav
+	radio\bot\cooked\theyve_got_the_hostages.wav
+	radio\bot\cooked\the_hostages_are_gone.wav
+End
+
+// the (CT) bot is announcing that he is talking to the hostages
+Chatter TalkingToHostages
+	Important
+
+	radio\bot\cooked\talking_to_hostages.wav
+	radio\bot\cooked\rescuing_hostages.wav
+End
+
+// the (CT) bot is annoucing that he has the hostages and is taking them to the escape zone
+Chatter EscortingHostages
+	Important
+
+	radio\bot\cooked\the_hostages_are_with_me.wav
+	radio\bot\cooked\taking_the_hostages_to_safety.wav
+	radio\bot\cooked\ive_got_the_hostages.wav
+	radio\bot\cooked\i_have_the_hostages.wav
+End
+
+// the (CT) bot is guarding the hostages and is encouraging the human player to come rescue them
+Chatter WaitingForHumanToRescueHostages
+	Radio EVENT_RADIO_SECTOR_CLEAR
+
+	Important
+
+	radio\bot\cooked\the_hostages_are_waiting.wav
+	radio\bot\cooked\hostages_secure_ready_for_you.wav
+	radio\bot\cooked\the_hostages_are_eager.wav
+	radio\bot\cooked\the_hostages_are_ready.wav
+	radio\bot\cooked\weve_got_the_situation.wav
+End
+
+
+//-----------------------------------------------------------------------------------------
+//
+// VIP Scenario chatter
+//
+
+// the (Terrorist) bot has spotted the VIP
+// VOICE NOTE: Intensity/anger/determination
+Chatter SpottedVIP
+	Radio EVENT_RADIO_ENEMY_SPOTTED
+
+	Important
+
+	radio\bot\cooked\i_see_our_target.wav
+	radio\bot\cooked\target_spotted.wav
+	radio\bot\cooked\target_acquired.wav
+End
+
+// the (Terrorist) bot is announcing his intention to guard an escape zone
+Chatter GoingToGuardVIPEscapeZone
+	Important
+
+	radio\bot\cooked\im_going_to_cover_the_escape_zone.wav
+	radio\bot\cooked\im_going_to_watch_the_escape_zone.wav
+	radio\bot\cooked\im_going_to_keep_an_eye_on_the_escape.wav
+	radio\bot\cooked\heading_to_the_escape_zone.wav
+End
+
+// the (Terrorist) bot is guarding an escape zone
+Chatter GuardingVIPEscapeZone
+	Important
+
+	radio\bot\cooked\watching_the_escape_route.wav
+	radio\bot\cooked\im_at_the_escape_zone.wav
+	radio\bot\cooked\watching_the_escape_zone.wav
+	radio\bot\cooked\guarding_the_escape_zone.wav
+	radio\bot\cooked\guarding_the_escape_zone2.wav
+End
+
+
+//-----------------------------------------------------------------------------------------
+
+// the bot was saying something and died in mid-sentance
+// VOICE NOTE: death cry
+Chatter Pain
+	radio\bot\cooked\pain2.wav
+	radio\bot\cooked\pain4.wav
+	radio\bot\cooked\pain5.wav
+	radio\bot\cooked\pain8.wav
+	radio\bot\cooked\pain9.wav
+	radio\bot\cooked\pain10.wav
+End
+
+// the bot is congratulating his team for winning the round
+Chatter WonRound
+	radio\bot\cooked\good_job_team.wav
+	radio\bot\cooked\nice_work_team.wav
+	radio\bot\cooked\way_to_be_team.wav
+	radio\bot\cooked\well_done.wav
+End
+
+// the bot is celebrating because his team crushed the enemies very quickly
+// VOICE NOTE: Hoots and hollers of excitement, bragging, boasting, etc
+Chatter WonRoundQuickly
+	radio\bot\cooked\i_am_dangerous.wav
+	radio\bot\cooked\do_not_mess_with_me.wav
+	radio\bot\cooked\we_owned_them.wav
+	radio\bot\cooked\they_never_knew_what_hit_them.wav
+	radio\bot\cooked\thats_the_way_this_is_done.wav
+	radio\bot\cooked\and_thats_how_its_done.wav
+	radio\bot\cooked\owned.wav
+	radio\bot\cooked\yesss.wav
+	radio\bot\cooked\yesss2.wav
+	radio\bot\cooked\yea_baby.wav
+	radio\bot\cooked\whoo.wav
+	radio\bot\cooked\whoo2.wav
+	radio\bot\cooked\oh_yea.wav
+	radio\bot\cooked\oh_yea2.wav
+End
+
+// the bot won the round and is the last player alive
+// VOICE NOTE: Bragging, boasting, etc
+Chatter LastManStanding
+	radio\bot\cooked\i_am_dangerous.wav
+	radio\bot\cooked\do_not_mess_with_me.wav
+	radio\bot\cooked\this_is_my_house.wav
+End
+
+// the bot emits a short, exicited noise because he did something especially good
+// VOICE NOTE: Hoots and hollers of excitement
+Chatter ThrillEmote
+	radio\bot\cooked\yesss.wav
+	radio\bot\cooked\yesss2.wav
+	radio\bot\cooked\yea_baby.wav
+	radio\bot\cooked\whoo.wav
+	radio\bot\cooked\whoo2.wav
+	radio\bot\cooked\oh_yea.wav
+	radio\bot\cooked\oh_yea2.wav
+End
+
+// the bot is afraid (usually because he is outnumbered by enemies)
+// VOICE NOTE: Worry/anxiety/fear
+Chatter ScaredEmote
+	radio\bot\cooked\whoa.wav
+	radio\bot\cooked\uh_oh.wav
+	radio\bot\cooked\oh_no.wav
+	radio\bot\cooked\yikes.wav
+	radio\bot\cooked\oh.wav
+	radio\bot\cooked\oh_boy.wav
+	radio\bot\cooked\oh_boy2.wav
+	radio\bot\cooked\aah.wav
+End
+
+// the bot is agreeing with a plan someone else announced
+Chatter AgreeWithPlan
+	Important
+
+	radio\bot\cooked\me_too.wav
+	radio\bot\cooked\ill_come_with_you.wav
+	radio\bot\cooked\ill_go_with_you.wav
+	radio\bot\cooked\ill_go_too.wav
+	radio\bot\cooked\i_got_your_back.wav
+	radio\bot\cooked\i_got_your_back2.wav
+	radio\bot\cooked\im_with_you.wav
+	radio\bot\cooked\sounds_like_a_plan.wav
+	radio\bot\cooked\good_idea.wav
+End
+
+// the bot is telling a friend that he will "cover them" and watch their back
+Chatter CoveringFriend
+	Radio EVENT_RADIO_AFFIRMATIVE
+
+	Important
+
+	radio\bot\cooked\i_got_your_back.wav
+	radio\bot\cooked\i_got_your_back2.wav
+	radio\bot\cooked\im_with_you.wav
+End
+
+// the bot is responding to someone's request for help
+// VOICE NOTE: Confident/assuring
+Chatter OnMyWay
+	Radio EVENT_RADIO_AFFIRMATIVE
+
+	Important
+
+	radio\bot\cooked\on_my_way.wav
+	radio\bot\cooked\on_my_way2.wav
+	radio\bot\cooked\im_coming.wav
+	radio\bot\cooked\hang_on_im_coming.wav
+	radio\bot\cooked\be_right_there.wav
+End
+
+// the bot has decided to hide for a little while, instead of seeking out the enemy
+// VOICE NOTE: Anxiety/worry/cowardice
+Chatter WaitingHere
+	radio\bot\cooked\lets_wait_here.wav
+	radio\bot\cooked\lets_hold_up_here_for_a_minute.wav
+	radio\bot\cooked\im_gonna_hang_back.wav
+	radio\bot\cooked\im_going_to_wait_here.wav
+	radio\bot\cooked\im_waiting_here.wav
+End
+
+// the bot has been in combat for a long time, and can't get away
+// VOICE NOTE: Anxiety/worry/fear
+Chatter PinnedDown
+	Radio EVENT_RADIO_NEED_BACKUP
+
+	radio\bot\cooked\they_got_me_pinned_down_here.wav
+	radio\bot\cooked\im_pinned_down.wav
+End
+
+// the bot heard an enemy noise
+// VOICE NOTE: Said as an undertone/afterthought
+Chatter HeardNoise
+	radio\bot\cooked\i_hear_them.wav
+	radio\bot\cooked\hang_on_i_heard_something.wav
+	radio\bot\cooked\i_hear_something.wav
+	radio\bot\cooked\i_heard_them.wav
+	radio\bot\cooked\i_heard_something_over_there.wav
+End
+
+// the bot has been blinded by a Flashbang Grenade
+// VOICE NOTE: Surprise/shock/fear/anxiety
+Chatter Blinded
+	radio\bot\cooked\ive_been_blinded.wav
+	radio\bot\cooked\my_eyes.wav
+	radio\bot\cooked\i_cant_see.wav
+	radio\bot\cooked\im_blind.wav
+End
+
+// the bot is congratulating a friend on a well placed shot
+// VOICE NOTE: upbeat/supportive/impressed
+Chatter NiceShot
+	radio\bot\cooked\good_one.wav
+	radio\bot\cooked\good_one2.wav
+	radio\bot\cooked\nice_shot.wav
+	radio\bot\cooked\nice_shot2.wav
+	radio\bot\cooked\good_shot.wav
+	radio\bot\cooked\good_shot2.wav
+	radio\bot\cooked\nice.wav
+	radio\bot\cooked\nice2.wav
+	radio\bot\cooked\very_nice.wav
+End
+
+// the bot is congratulating a human player on a well placed shot
+// VOICE NOTE: upbeat/supportive/impressed
+Chatter NiceShotSir
+	radio\bot\cooked\good_one_sir.wav
+	radio\bot\cooked\good_one_sir2.wav
+	radio\bot\cooked\nice_shot_sir.wav
+	radio\bot\cooked\nice_one_sir.wav
+End
+
+// the bot is congratulating the "commander" in the solo game
+// VOICE NOTE: upbeat/supportive/impressed
+Chatter NiceShotCommander
+	radio\bot\cooked\nice_shot_commander.wav
+	radio\bot\cooked\nice_shot_commander2.wav
+	radio\bot\cooked\good_shot_commander.wav
+	radio\bot\cooked\good_shot_commander2.wav
+	radio\bot\cooked\nice_one_commander.wav
+	radio\bot\cooked\good_one_sir.wav
+	radio\bot\cooked\good_one_sir2.wav
+	radio\bot\cooked\nice_shot_sir.wav
+	radio\bot\cooked\nice_one_sir.wav
+End
+
+// when the player dies in the solo game
+// VOICE NOTE: Intense/worry/anxiety
+Chatter CommanderDown
+	Radio EVENT_RADIO_REGROUP_TEAM
+
+	Important
+
+	radio\bot\cooked\the_commander_is_down_repeat.wav
+	radio\bot\cooked\the_commander_is_down.wav
+	radio\bot\cooked\weve_lost_the_commander.wav
+End
+
+// the bot has decided to follow a human player
+Chatter FollowingSir
+	Radio EVENT_RADIO_AFFIRMATIVE
+
+	Important
+
+	radio\bot\cooked\lead_on_sir.wav
+	radio\bot\cooked\lead_the_way_sir.wav
+	radio\bot\cooked\lead_the_way.wav
+	radio\bot\cooked\ok_sir_lets_go.wav
+End
+
+// the bot has decided to follow the human player in the solo game
+Chatter FollowingCommander
+	Radio EVENT_RADIO_AFFIRMATIVE
+
+	Important
+
+	radio\bot\cooked\lead_on_sir.wav
+	radio\bot\cooked\lead_the_way_sir.wav
+	radio\bot\cooked\lead_the_way.wav
+	radio\bot\cooked\ok_sir_lets_go.wav
+	radio\bot\cooked\lead_on_commander.wav
+	radio\bot\cooked\lead_the_way_commander.wav
+	radio\bot\cooked\ok_cmdr_lets_go.wav
+End
+
+// the bot is expressing its shock that a friend has killed another friend (friendly fire)
+// VOICE NOTE: Grief/sadness/worry/astonishment
+Chatter KilledFriend
+	radio\bot\cooked\what_happened.wav
+	radio\bot\cooked\noo.wav
+	radio\bot\cooked\oh_my_god.wav
+	radio\bot\cooked\oh_man.wav
+	radio\bot\cooked\oh_no_sad.wav
+	radio\bot\cooked\what_have_you_done.wav
+End
+
+// the bot is crying out because he was injured by friendly fire
+// VOICE NOTE: Pain/anger/frustration
+Chatter FriendlyFire
+	Important
+
+	radio\bot\cooked\cut_it_out.wav
+	radio\bot\cooked\what_are_you_doing.wav
+	radio\bot\cooked\stop_it.wav
+	radio\bot\cooked\ow_its_me.wav
+	radio\bot\cooked\ow.wav
+	radio\bot\cooked\ouch.wav
+	radio\bot\cooked\im_on_your_side.wav
+	radio\bot\cooked\hold_your_fire.wav
+	radio\bot\cooked\hey.wav
+	radio\bot\cooked\hey2.wav
+	radio\bot\cooked\ouch.wav
+	radio\bot\cooked\ouch.wav
+	radio\bot\cooked\ouch.wav
+End
+
+
+
+//---------------------------------------------------------------------------------------
+//
+// The items below are not used (yet)
+//
+
+Chatter PepTalk
+	radio\bot\cooked\alright_lets_do_this.wav
+	radio\bot\cooked\tag_them_and_bag_them.wav
+	radio\bot\cooked\you_heard_the_man_lets_go.wav
+End
+
+Chatter OnARollBrag
+	radio\bot\cooked\i_got_more_where_that_came_from.wav
+	radio\bot\cooked\who_wants_some_more.wav
+	radio\bot\cooked\i_am_on_fire.wav
+	radio\bot\cooked\look_out_brag.wav
+	radio\bot\cooked\thats_right.wav
+	radio\bot\cooked\whos_the_man.wav
+End
+
+Chatter TauntCamper
+	radio\bot\cooked\come_out_wherever_you_are.wav
+	radio\bot\cooked\where_are_you_hiding.wav
+	radio\bot\cooked\come_out_and_fight_like_a_man.wav
+	radio\bot\cooked\come_to_papa.wav
+End
+
+Chatter PreventEscapeBrag
+	radio\bot\cooked\they_wont_get_away.wav
+	radio\bot\cooked\they_wont_get_away2.wav
+	radio\bot\cooked\they_will_not_escape.wav
+End
+
+Chatter SniperWarning
+	radio\bot\cooked\sniper.wav
+	radio\bot\cooked\sniper2.wav
+	radio\bot\cooked\watch_it_theres_a_sniper.wav
+End
+
+Chatter SniperKilled
+	radio\bot\cooked\got_the_sniper.wav
+	radio\bot\cooked\got_the_sniper2.wav
+	radio\bot\cooked\sniper_down.wav
+	radio\bot\cooked\took_out_the_sniper.wav
+	radio\bot\cooked\the_sniper_is_dead.wav
+End
+
+// we saw enemies, but now they're all dead
+Chatter ClearedArea
+	radio\bot\cooked\area_secure.wav 
+	radio\bot\cooked\neutralized.wav 
+End
+
+Chatter Agree
+	radio\bot\cooked\ok.wav
+	radio\bot\cooked\ok2.wav
+	radio\bot\cooked\alright.wav
+	radio\bot\cooked\alright2.wav
+	radio\bot\cooked\yea_ok.wav
+End
+
+Chatter Disagree
+	radio\bot\cooked\no2.wav
+	radio\bot\cooked\i_dont_think_so.wav
+	radio\bot\cooked\naa.wav
+	radio\bot\cooked\no_thanks.wav
+End
+
+Chatter CoverMe
+	radio\bot\cooked\cover_me.wav 
+	radio\bot\cooked\cover_me2.wav 
+End
+
+Chatter FrustrationEmote
+	radio\bot\cooked\aw_hell.wav
+	radio\bot\cooked\great.wav
+	radio\bot\cooked\aww_man.wav
+	radio\bot\cooked\thats_not_good.wav
+End
+
+Chatter FollowingFriend
+	radio\bot\cooked\ill_come_with_you.wav
+	radio\bot\cooked\ill_go_with_you.wav
+	radio\bot\cooked\ill_go_too.wav
+	radio\bot\cooked\i_got_your_back.wav
+	radio\bot\cooked\i_got_your_back2.wav
+	radio\bot\cooked\im_with_you.wav
+End
+
+Chatter ReportingIn
+	radio\bot\cooked\reporting_in.wav 
+End
+
+Chatter BombTickingDown
+	radio\bot\cooked\we_gotta_find_that_bomb.wav
+	radio\bot\cooked\time_is_running_out.wav
+	radio\bot\cooked\theres_not_much_time_left.wav
+End
+
+Chatter HostageDown
+	radio\bot\cooked\hostage_down.wav
+End
+
+Chatter RequestHostageLocation
+	radio\bot\cooked\where_are_the_hostages.wav
+End
+
+Chatter MeToo
+	radio\bot\cooked\me_too.wav
+End
+
+

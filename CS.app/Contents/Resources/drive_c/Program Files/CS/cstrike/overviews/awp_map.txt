@@ -1,0 +1,14 @@
+// overview description file for awp_map.bsp  (by d-o-Maxx@borgnet.de)
+
+global 
+{
+	ZOOM	2.31
+	ORIGIN	256.00     -256.00	-513.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/awp_map.bmp"
+	HEIGHT	-513.00
+}

@@ -1,0 +1,6 @@
+L 05/28/2011 - 20:53:08: -------- Mapchange --------
+L 05/28/2011 - 20:53:20: [AMXX] Failed to open dictionary file: cstrike\addons\amxmodx\data\lang\twisteddeathmatch.txt
+L 05/28/2011 - 20:53:21: [admin.amxx] Login: "lore<1><VALVE_ID_LOOPBACK><>" became an admin (account "loopback") (access "abcdefghijklmnopqrstu") (address "loopback")
+L 05/28/2011 - 20:59:19: -------- Mapchange --------
+L 05/28/2011 - 20:59:20: [AMXX] Failed to open dictionary file: cstrike\addons\amxmodx\data\lang\twisteddeathmatch.txt
+L 05/28/2011 - 20:59:20: [admin.amxx] Login: "lore<13><VALVE_ID_LOOPBACK><>" became an admin (account "loopback") (access "abcdefghijklmnopqrstu") (address "loopback")

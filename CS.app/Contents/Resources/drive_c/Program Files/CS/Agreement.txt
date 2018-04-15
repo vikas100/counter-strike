@@ -1,0 +1,16 @@
+YOU SHOULD CAREFULLY READ THE FOLLOWING END USER LICENSE AGREEMENT BEFORE INSTALLING THIS SOFTWARE. BY INSTALLING, COPYING, OR OTHERWISE USING THE SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT.
+
+This software is a Graphic User Interface (GUI) that modifies the behavior of Counter-Strike for easier management of WCG game tournament rules.
+
+1. Copyright:
+This software is wholly owned by International Cyber Marketing, Inc. Any in-game materials including, but not limited to, the characters, logos, and images are the properties of Valve Software, Sierra Entertainment and/or Vivendi Universal Games.
+
+2. Distribution:
+The end user is free to distribute this software as long as it is provided free of charge and kept in the same format.
+
+3. Liability:
+International Cyber Marketing, Inc. and/or related parties can not be held liable for any damages caused by installing this software.
+
+http://www.worldcybergames.com
+
+Copyright (c) 2006 International Cyber Marketing, Inc.

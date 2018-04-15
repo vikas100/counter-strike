@@ -1,0 +1,14 @@
+// overview description file for de_cpl_strike.bsp
+
+global 
+{
+	ZOOM	1.60
+	ORIGIN	-784	388	60
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/de_cpl_strike.bmp"
+	HEIGHT	-201
+}

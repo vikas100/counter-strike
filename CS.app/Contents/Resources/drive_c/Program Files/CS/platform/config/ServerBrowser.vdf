@@ -1,0 +1,579 @@
+""
+{
+	"History"
+	{
+		"1"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"192.168.1.133:27015"
+			"lastplayed"		"1197048853"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"2"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"192.168.1.135:27015"
+			"lastplayed"		"1197315758"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"3"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"201.217.17.140:27018"
+			"lastplayed"		"1281399158"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"4"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"201.217.17.140:27016"
+			"lastplayed"		"1198782535"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"5"
+		{
+			"name"		"JOPY FREE 1"
+			"gamedir"		"cstrike"
+			"Players"		"31"
+			"maxplayers"		"32"
+			"map"		"de_aztec"
+			"address"		"201.217.17.140:27015"
+			"lastplayed"		"1198768840"
+			"secure"		"0"
+			"type"		"4"
+		}
+		"6"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"192.168.1.103:27015"
+			"lastplayed"		"1196875921"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"7"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"192.168.1.104:27015"
+			"lastplayed"		"1197286051"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"8"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"192.168.1.110:27015"
+			"lastplayed"		"1197231741"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"9"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"192.168.1.101:27015"
+			"lastplayed"		"1197041799"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"10"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"200.61.227.14:27015"
+			"lastplayed"		"1198684456"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"11"
+		{
+			"name"		"JOPY DeathMatch 1"
+			"gamedir"		"cstrike"
+			"Players"		"11"
+			"maxplayers"		"20"
+			"map"		"de_nuke_32"
+			"address"		"201.217.17.140:27022"
+			"lastplayed"		"1198782430"
+			"secure"		"0"
+			"type"		"4"
+		}
+		"12"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"201.217.17.140:27017"
+			"lastplayed"		"1198002359"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"13"
+		{
+			"name"		"3NTR3N"
+			"gamedir"		"cstrike"
+			"Players"		"7"
+			"maxplayers"		"24"
+			"map"		"de_aztec"
+			"address"		"190.50.181.153:27015"
+			"lastplayed"		"1197387045"
+			"secure"		"1"
+			"type"		"1"
+		}
+		"14"
+		{
+			"name"		"El ServeR dE IuIu XD"
+			"gamedir"		"cstrike"
+			"Players"		"6"
+			"maxplayers"		"6"
+			"map"		"cs_deathmatch"
+			"address"		"190.137.43.15:27015"
+			"lastplayed"		"1197386954"
+			"secure"		"1"
+			"type"		"1"
+		}
+		"15"
+		{
+			"name"		"[FR] #APJR AIM ONLY - www.apjr.org - By #Euroserv -"
+			"gamedir"		"cstrike"
+			"Players"		"0"
+			"maxplayers"		"13"
+			"map"		"aim_map2"
+			"address"		"193.27.78.221:27017"
+			"lastplayed"		"1198786037"
+			"secure"		"1"
+			"type"		"1"
+		}
+		"16"
+		{
+			"name"		"CERRADO{1}LANPY[CLWCS]"
+			"gamedir"		"cstrike"
+			"Players"		"2"
+			"maxplayers"		"11"
+			"map"		"de_dust2"
+			"address"		"200.61.227.13:27015"
+			"lastplayed"		"1198786546"
+			"secure"		"0"
+			"type"		"1"
+		}
+		"17"
+		{
+			"name"		"JOPY AIM"
+			"gamedir"		"cstrike"
+			"Players"		"9"
+			"maxplayers"		"32"
+			"map"		"aim_sk_glock"
+			"address"		"201.217.17.140:27020"
+			"lastplayed"		"1281399162"
+			"secure"		"0"
+			"type"		"1"
+		}
+		"18"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"201.217.17.140:27019"
+			"lastplayed"		"1198684530"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"19"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"159.148.32.201:27055"
+			"lastplayed"		"1197387614"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"20"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"190.51.52.193:27015"
+			"lastplayed"		"1197517709"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"21"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"189.41.198.23:27016"
+			"lastplayed"		"1197517855"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"22"
+		{
+			"name"		"Cyber iP CS 1.6"
+			"gamedir"		"cstrike"
+			"Players"		"13"
+			"maxplayers"		"32"
+			"map"		"de_aztec"
+			"address"		"200.61.228.134:27015"
+			"lastplayed"		"1198787274"
+			"secure"		"0"
+			"type"		"1"
+		}
+		"23"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"193.27.10.69:27035"
+			"lastplayed"		"1198785496"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"24"
+		{
+			"name"		"[Cs]-[On3.Star].LosTeques"
+			"gamedir"		"cstrike"
+			"Players"		"11"
+			"maxplayers"		"12"
+			"map"		"32_aztecworld"
+			"address"		"190.198.45.254:27015"
+			"lastplayed"		"1198786563"
+			"secure"		"1"
+			"type"		"1"
+		}
+		"25"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"190.53.20.121:27015"
+			"lastplayed"		"1198786130"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"26"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"193.17.219.250:27015"
+			"lastplayed"		"1198785586"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"27"
+		{
+			"name"		"Smirnoff ICE CS 1.6 Server"
+			"gamedir"		"cstrike"
+			"Players"		"21"
+			"maxplayers"		"24"
+			"map"		"de_inferno"
+			"address"		"190.144.9.146:27015"
+			"lastplayed"		"1198786254"
+			"secure"		"0"
+			"type"		"1"
+		}
+		"28"
+		{
+			"name"		"zuverkaufen 40euro fuer 3 monate - 333587671"
+			"gamedir"		"cstrike"
+			"Players"		"0"
+			"maxplayers"		"16"
+			"map"		"fy_pool_day"
+			"address"		"193.17.219.35:27015"
+			"lastplayed"		"1198786121"
+			"secure"		"1"
+			"type"		"1"
+		}
+		"29"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"180.4.197.199:27015"
+			"lastplayed"		"1279554785"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"30"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"187.21.113.181:27015"
+			"lastplayed"		"1279557084"
+			"secure"		"0"
+			"type"		"0"
+		}
+	}
+	"FilterList"
+	{
+		"InternetGames"
+		{
+			"ping"		"0"
+			"location"		"0"
+			"NoFull"		"0"
+			"NoEmpty"		"0"
+			"NoPassword"		"0"
+			"secure"		"0"
+			"lastquery"		"1335472658"
+			"source"		"0"
+			"gldsrc"		"0"
+		}
+		"SpectateGames"
+		{
+			"ping"		"0"
+			"location"		"0"
+			"NoFull"		"0"
+			"NoEmpty"		"0"
+			"NoPassword"		"0"
+			"secure"		"0"
+			"lastquery"		"1328997404"
+			"source"		"0"
+			"gldsrc"		"0"
+		}
+		"FavoriteGames"
+		{
+			"ping"		"0"
+			"NoFull"		"0"
+			"NoEmpty"		"0"
+			"NoPassword"		"0"
+			"secure"		"0"
+			"source"		"0"
+			"gldsrc"		"0"
+		}
+		"LanGames"
+		{
+			"ping"		"0"
+			"NoFull"		"0"
+			"NoEmpty"		"0"
+			"NoPassword"		"0"
+			"secure"		"0"
+			"source"		"0"
+			"gldsrc"		"0"
+		}
+		"FriendsGames"
+		{
+			"ping"		"0"
+			"NoFull"		"0"
+			"NoEmpty"		"0"
+			"NoPassword"		"0"
+			"secure"		"0"
+			"source"		"0"
+			"gldsrc"		"0"
+		}
+		"HistoryGames"
+		{
+			"ping"		"0"
+			"NoFull"		"0"
+			"NoEmpty"		"0"
+			"NoPassword"		"0"
+			"secure"		"0"
+			"source"		"0"
+			"gldsrc"		"0"
+		}
+	}
+	"gamelist"		"favorites"
+	"Favorites"
+	{
+		"1"
+		{
+			"name"		"JOPY FREE 1"
+			"gamedir"		"cstrike"
+			"Players"		"29"
+			"maxplayers"		"32"
+			"map"		"de_dust2002"
+			"address"		"201.217.17.140:27015"
+			"lastplayed"		"0"
+			"secure"		"0"
+			"type"		"4"
+		}
+		"2"
+		{
+			"name"		"JOPY FREE 2"
+			"gamedir"		"cstrike"
+			"Players"		"31"
+			"maxplayers"		"32"
+			"map"		"de_dust2002"
+			"address"		"201.217.17.140:27016"
+			"lastplayed"		"0"
+			"secure"		"0"
+			"type"		"4"
+		}
+		"3"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"201.217.17.140:27015"
+			"lastplayed"		"0"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"4"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"201.217.17.140:27016"
+			"lastplayed"		"0"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"5"
+		{
+			"name"		"JOPY PRO 1"
+			"gamedir"		"cstrike"
+			"Players"		"7"
+			"maxplayers"		"20"
+			"map"		"de_nuke_32"
+			"address"		"201.217.17.140:27017"
+			"lastplayed"		"0"
+			"secure"		"0"
+			"type"		"4"
+		}
+		"6"
+		{
+			"name"		"JOPY PRO CM 1"
+			"gamedir"		"cstrike"
+			"Players"		"11"
+			"maxplayers"		"11"
+			"map"		"de_dust2"
+			"address"		"201.217.17.140:27018"
+			"lastplayed"		"0"
+			"secure"		"0"
+			"type"		"1"
+		}
+		"7"
+		{
+			"name"		"JOPY DeathMatch 2"
+			"gamedir"		"cstrike"
+			"Players"		"4"
+			"maxplayers"		"20"
+			"map"		"de_dust"
+			"address"		"201.217.17.140:27019"
+			"lastplayed"		"0"
+			"secure"		"0"
+			"type"		"4"
+		}
+		"8"
+		{
+			"name"		"JOPY DeathMatch 1"
+			"gamedir"		"cstrike"
+			"Players"		"17"
+			"maxplayers"		"20"
+			"map"		"cs_italy"
+			"address"		"201.217.17.140:27022"
+			"lastplayed"		"0"
+			"secure"		"0"
+			"type"		"4"
+		}
+		"9"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"200.61.227.15:27015"
+			"lastplayed"		"0"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"10"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"200.61.227.17:27015"
+			"lastplayed"		"0"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"11"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"200.43.229.209:27027"
+			"lastplayed"		"0"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"12"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"200.43.229.209:27028"
+			"lastplayed"		"0"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"13"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"200.43.229.209:27029"
+			"lastplayed"		"0"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"14"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"200.43.229.209:27030"
+			"lastplayed"		"0"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"15"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"200.43.229.209:27031"
+			"lastplayed"		"0"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"16"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"200.43.229.209:27032"
+			"lastplayed"		"0"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"17"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"200.43.229.209:27033"
+			"lastplayed"		"0"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"18"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"200.43.229.209:27034"
+			"lastplayed"		"0"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"19"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"190.211.243.238:27014"
+			"lastplayed"		"0"
+			"secure"		"0"
+			"type"		"0"
+		}
+		"20"
+		{
+			"Players"		"0"
+			"maxplayers"		"0"
+			"address"		"190.211.243.238:27014"
+			"lastplayed"		"0"
+			"secure"		"0"
+			"type"		"0"
+		}
+	}
+}
+ 

@@ -1,0 +1,12 @@
+Aim_Deathmatch2 - Team Deathmatch
+by Lvc (Igor Emric) - 03.06.2005
+http://www.Unitedtech.tk/
+E-mail: Igor01@bih.net.ba or JoWood01@hotmail.com
+
+Mission:
+Counter-Terrorist: Kill all Terrorists.
+Terrorist: Kill all Counter-Terrorists.
+
+Other Notes: Have fun!
+
+(Press FIRE to continue)

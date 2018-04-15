@@ -1,0 +1,52 @@
+Cargo  (de_crgo)
+by Egir Helgrimson (egir@egir.dk)
+www.egir.dk
+
+Background:
+A group of terrorists have found out that blowing up 
+a cargo ship will create political disturbance
+and bring the economy in offshore industry out of 
+balance. Thus the terrorists want to blow up this 
+cargo ship. 
+
+However, the rumour about this attack has reached 
+the Government Intelligence and counter-terrorists
+have been sent to the ship to prevent it from being
+blown up.
+
+Counter-Terrorists: 
+Terrorists are on this ship. They want to blow it
+up, and they will kill to do so. Prevent them from
+doing that at all costs.
+
+Terrorists:
+Find the marked spots of the ship and plant the c4
+explosives. You may find counter-terrorist trying 
+to prevent you in fullfilling our evil plan. In that
+case do not think, just kill the bastards.
+
+Textures by: 
+crazyzero (razyzero@hotmail.com) 
+http://www.crazyzero.deviantart.com 
+
+Yves Allaire (yvesa@sympatico.ca)
+http://www.planetquake.com/hfx/
+
+The people at Valve, at Natural-Selection
+
+And then I made a few of them myself.
+
+Special thanks for testing and hosting:
+Slap league
+www.slap.dk
+
+[CHS]
+www.vipz.dk/chs
+
+[cccp]
+www.egir.dk/cccp
+
+Popcorn Eating mappers at quakenet
+#csmapping
+
+and many others.

@@ -1,0 +1,14 @@
+// overview description file for de_clan1_mill.bsp
+
+global 
+{
+	ZOOM	1.49
+	ORIGIN	511 	1769	-288
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/de_cpl_mill.tga"
+	HEIGHT	-288
+}

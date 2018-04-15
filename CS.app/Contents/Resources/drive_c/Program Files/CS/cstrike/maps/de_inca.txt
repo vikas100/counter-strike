@@ -1,0 +1,19 @@
+Inca - Defusion
+by .::javito el piojo::. (XPgeneric@hotmail.com)
+Texture builds by Macman (tex de_aztec map)
+
+Counter-Terrorists: Prevent the Terrorists
+bombing the site.
+
+Terrorists: Destroy the valuable Inca ruins.
+
+Other Notes:
+
+*There are 2 bomb sites in this mission.
+
+*The map is Honor to "de_aztec"
+
+*Informe de la situacion:
+
+Depues de un improvisada mission los counter fueron derribados de su escolta...
+Y ahora intentan de defender el local ivadido por terroristas...

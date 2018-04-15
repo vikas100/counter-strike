@@ -1,0 +1,43 @@
+2012/02/11 21:56:18 -  
+2012/02/11 21:56:18 - ------------------
+2012/02/11 21:56:18 - sXe-I dll starting
+2012/02/11 21:56:18 - version: 12.0
+2012/02/11 21:56:18 -    **** Game folder [C:\Documents and Settings\Administrador\Mis documentos\Juegos\Counter Strike 1.6 (Sin Nada)\Counter-Strike 1.6]
+2012/02/11 21:56:18 -    **** Active folder [C:\Documents and Settings\Administrador\Mis documentos\Juegos\Counter Strike 1.6 (Sin Nada)\Counter-Strike 1.6]
+2012/02/11 21:56:18 -    **** Trying protocol 47 for game [cstrike]
+2012/02/11 21:56:18 -    **** Graphic Mode: OpenGL
+2012/02/11 21:56:18 -    **** x86 platform detected
+2012/02/11 21:56:18 -    **** Driver Initialization
+2012/02/11 21:56:18 -    **** Open success
+2012/02/11 21:56:18 -    **** Link ready
+2012/02/11 21:56:18 -    **** Image ready
+2012/02/11 21:56:18 -    **** Gather ready
+2012/02/11 21:56:18 -    **** searching...
+2012/02/11 21:56:22 -    **** Half-Life protocol 47
+2012/02/11 21:56:22 - hooking...
+2012/02/11 21:56:22 - result...[0]
+2012/02/11 21:56:22 -    **** Hooked
+2012/02/11 21:56:22 -    **** Message [0]
+2012/02/11 21:56:22 -    **** Message H [0]
+2012/02/11 21:56:22 -    **** Message S [0]
+2012/02/11 21:56:22 -    **** Message SD [0]
+2012/02/11 21:56:22 -    **** Message SS [0]
+2012/02/11 21:56:22 -    **** Message SSD [0]
+2012/02/11 21:56:22 -    **** Message SSI [0]
+2012/02/11 21:56:22 -    **** Message SA [0]
+2012/02/11 21:56:22 -    **** Alias Offline[1]
+2012/02/11 21:56:22 -    **** Screening command[1]
+2012/02/11 21:56:22 -    **** Listen server Offline
+2012/02/11 21:56:22 -    **** Backup ready
+2012/02/11 21:56:22 -    **** ControlTime [28629698]
+2012/02/11 21:56:22 -    **** GL Command Offline
+2012/02/11 21:56:22 -    **** Finish [1860]
+2012/02/11 21:56:22 -    **** Engine OK
+2012/02/11 21:56:22 -    **** Validations ready
+2012/02/11 21:56:22 -    **** Removed...
+2012/02/11 21:56:22 -    **** OGL success
+2012/02/11 21:56:22 -    **** Gateway installed
+2012/02/11 21:56:22 -    **** SET success
+2012/02/11 21:56:22 -    **** SET VP
+2012/02/11 21:56:22 -    **** READY .-
+2012/02/11 22:00:25 - sXe-I dll closing

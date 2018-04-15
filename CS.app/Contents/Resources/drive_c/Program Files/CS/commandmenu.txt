@@ -1,0 +1,81 @@
+// CPL VGUI MENU
+
+"1" "Current Game"
+{
+	CUSTOM	"1" "Show Map Briefing"	"!MAPBRIEFING"
+	"2" "Change Team" "chooseteam"
+	"3" "Show Time Left" "timeleft"
+}
+
+
+"2" "Team Messages"
+{
+
+	"1" "'Acknowledged'"	"roger"
+	"2" "'Negative'"	"negative"
+	"3" "'Need backup!'"	"needbackup"
+	"4" "'Go Go Go!'"	"go"
+	"5" "'Cover me!'"	"coverme"
+	"6" "On my way"		"roger; say_team On my way.."
+	"7" "Covering fire!"	"go; say_team Covering fire!"
+	"8" "Complete the objective" "regroup; say_team Complete the objective, team."
+	"9" "Sniper spotted" 	"enemyspot; say_team Sniper spotted!"
+}
+
+
+"3" "Client Options"
+{
+	"1" "Gameplay Settings"
+	{
+		"1" "Weapon Hands"
+		{
+			"1" "Use Right Models" "cl_righthand 1"
+			"2" "Use Left Models" "cl_righthand 0"
+		}
+		"2" "Menu Type"
+		{
+			"1" "VGUI" "setinfo _vgui_menus 1"
+			"2" "Classic Text" "setinfo _vgui_menus 0"
+		}
+		"3" "Dynamic Crosshair"
+		{
+			"1" "On" "cl_dynamiccrosshair 1"
+		 	"2" "Off" "cl_dynamiccrosshair 0"
+		}
+		"4" "Center ID"
+		{
+			"1" "On" "hud_centerid 1"
+			"2" "Off" "hud_centerid 0"
+		}
+		"5" "Radar Type"
+		{
+			"1" "Transparent" "cl_radartype 0"
+			"2" "Solid" "cl_radartype 1"
+		}
+		"6" "Show FPS"
+		{	
+			"1" "Show FPS" "cl_showfps 1"
+			"2" "Hide FPS Display" "cl_showfps 0"
+		}
+		"7" "Auto Weapon Switch"
+		{
+			"1" "On" "setinfo _cl_autowepswitch 1"
+			"2" "Off" "setinfo _cl_autowepswitch 0"
+		}
+		"8" "HUD Fastswitch"
+		{
+			"1" "Disable HUD Fastswitch" "hud_fastswitch 0"
+			"2" "Enable HUD Fastswitch" "hud_fastswitch 1"
+		}
+		"9" "Zoom Sensitivity" "messagemode zoom_sensitivity_ratio"
+		"10" "Mouse Sensitivity" "messagemode sensitivity"
+				
+			
+	}
+
+	"2" "Change Crosshair Color" "adjust_crosshair"
+	"3" "Change Name" "messagemode name"
+	"4" "Change Team" "chooseteam"
+}
+
+"4" "Drop Weapon" 	"drop"

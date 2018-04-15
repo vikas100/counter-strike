@@ -1,0 +1,14 @@
+// overview description file for fy_iceworld2k.bsp  (by d-o-Maxx@borgnet.de)
+
+global 
+{
+	ZOOM	3.42
+	ORIGIN	122.38     271.00    -285.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/fy_iceworld2k.bmp"
+	HEIGHT	-285.00
+}

@@ -1,0 +1,47 @@
+"1" "ADD ZBOT"
+{
+     "1" "Quick add zbot"		"bot_add"
+     "2" "Set zbot"
+     {
+               "1" "Easy"		"bot_difficulty 0"
+               "2" "Normal"		"bot_difficulty 1"
+               "3" "Hard"		"bot_difficulty 2"
+               "5" "Expert"		"bot_difficulty 3"
+     }
+     "3" "Add a specific zbot"
+	{
+          "1" "Add a terrorist"		"bot_add_t"
+          "2" "Add a counter-terrorist"	"bot_add_ct"
+     	}
+     "4" "add 7x8 team"		"exec addbot.cfg"
+}
+"2" "ZBOT MISC"
+   {
+       "1" "Endround"						"bot_kill"
+       "2" "Kick all (or 'bot_kick name')"			"bot_kick"
+       "3" "ZBot quota"
+    {
+	"1" "min 12"		"bot_quota 12"
+	"2" "min 14"		"bot_quota 14"
+	"3" "min 16"		"bot_quota 16"
+	"4" "min 18 "		"bot_quota 18"
+	"5" "min 20"		"bot_quota 20"
+    }
+   }
+"3" "SETTINGS"
+{
+    "1" "Weapon mode"
+    {
+	"1" "knives only"		"bot_knives only"
+	"2" "pistols only"		"bot_pistols_only"
+	"3" "snipers only"		"bot_snipers_only"
+	"4" "all weapons"		"bot_all_weapons"
+    }
+    "2" "Zbot join team"
+	{
+          "1" "terrorist"		"bot_join_team t"
+          "2" "counter-terrorist"	"bot_join_team ct"
+          "3" "Any"			"bot_join_team any"
+     	}
+}
+"0" "EXIT" "slot10"

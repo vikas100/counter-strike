@@ -1,0 +1,18 @@
+ Dust4 - Bomb/Defuse
+by CS-COMMANDER and CS-hyp0r http://www.corruptsoldiers.com
+The map is alot like dust  so have fun 
+Counter-Terrorists: Prevent Terrorists
+from bombing chemical weapon crates.
+Team members must defuse any bombs 
+that threaten targeted areas.
+
+Terrorists: The Terrorist carrying the
+C4 must destroy one of the chemical 
+weapon stashes. 
+
+Other Notes: There are 2 chemical 
+weapon stashes in the mission. 
+
+ 
+ 
+(Press FIRE to continue)
